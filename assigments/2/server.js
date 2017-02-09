@@ -31,10 +31,8 @@ var num1 = parseInt(req.query.num_one);
         result = num1 / num2
         break;
 }
-  //res.redirect('/'+num1);
   console.log(result);
   res.end(result+"");
-  //res.render(path+"contact", {output: "hello"});
 })
 app.use("/", router);
 
